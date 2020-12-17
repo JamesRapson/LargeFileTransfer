@@ -1,0 +1,29 @@
+﻿
+
+Server -> Client
+File available
+Message
+Contact request
+Request for File
+
+Client -> Server
+Send file to xxxx
+Add device
+Remove device
+Upload file
+
+WEB APIs
+
+[POST] Send File/<path>/fragement/<fragment Id>/destination/<destination user id>  {binary data}
+[POST] Device/Add/<device id>  {user id, password}
+[DELETE] Device/Remove/id
+Request File/file Id/source user id [GET]
+Send Message/destination/<destination id> [POST] {html} 
+
+Wait Command [GET]
+Send file (file path, destination id)
+Receive file (file path, fragment id, source id) {binary data}
+Receive Message (source id)  {html}
+
+
+
